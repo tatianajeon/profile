@@ -44,7 +44,7 @@ export const Projects = () => {
             <Div sx={{
                 display: 'flex', 
                 justifyContent: 'space-around',
-            }}>
+                }}>
                 <Card sx={{ maxWidth: 345 }}>
                     <CardMedia
                         component="img"
@@ -63,7 +63,7 @@ export const Projects = () => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Visit Project</Button>
+                        <Button size="small" href='https://ctbasics.herokuapp.com/'>Visit Project</Button>
                     </CardActions>
                 </Card>
 
