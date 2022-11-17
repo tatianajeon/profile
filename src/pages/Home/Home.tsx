@@ -36,7 +36,6 @@ export const Home = () => {
                 <NavBar />
                 {/* <Contact /> */}
             </MainText>
-
         </Root>
 
       );

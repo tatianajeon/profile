@@ -1,8 +1,9 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { styled } from '@mui/system';
+import { borderRadius, styled } from '@mui/system';
 import { NavBar } from '../../components';
+import { LinkedIn, Badges } from '../../custom-hooks';
 import { Photobook } from '../../components/Photobook';
 import profile from '../../assets/images/profilepic.png';
 import surfing from '../../assets/images/surf2.jpg';
@@ -21,19 +22,16 @@ const Main = styled('div')({
 const Div = styled('div')({
 })
 
-
 export const About = () => {
   return (
     <Root sx={{
         backgroundColor: '#7e9384',
-    }}>
-        
-            <NavBar />
-
+        }}>
+        <NavBar />
         <Main sx={{
                 padding: '100px',
             }}>
-
+            
         {/* intro section */}
             <Typography sx={{
                 textAlign: 'center',
@@ -103,6 +101,34 @@ export const About = () => {
                 </Box>
             </Div>    
             
+    {/* Creditial Badges */}
+        <Typography sx={{
+            textAlign: 'center',
+            fontSize: '75px',
+            fontFamily: 'EduVICWANTBeginner-Regular',
+            color: '#bfc8d9',
+            paddingTop: '100px',
+        }}>
+            Credentials
+        </Typography>
+        <Div sx={{
+            display: 'flex',
+            justifyContent: 'center', 
+            backgroundColor: 'white',
+            borderRadius: '15px',
+            
+            }}>
+                <Badges />
+        </Div>
+
+    {/* LinkedIn */}
+        <Div sx={{
+            display: 'flex',
+            justifyContent: 'center', 
+            paddingTop: '100px',
+            }}>
+                <LinkedIn />
+        </Div>
 
 
     {/* Hobbies Section */}
@@ -140,10 +166,9 @@ export const About = () => {
                 textAlign: 'right',
                 }}> 
                 <p>
-                    Having picked up surfing in Maui, it's what my husband and I live for. There's nothing quite like watching turtles pop their heads above the water, 
-                    pelicans diving around you for their next meal, spotting whales in the distance, or catching the sunrays beaming through the clouds just before it 
-                    sinks into the early night sky. It's in between the sets where you can't help but wonder at God's creation. Since moving to Nashville, I've picked
-                    up longboarding 
+                    Having picked up surfing in Maui, it's what my husband and I live for. There's nothing quite like watching turtles pop their heads above water, 
+                    pelicans diving around you for their next meal, spotting whales in the distance, or catching the sunrays beaming through the clouds just before 
+                    sinking into the night sky. It's in between the sets where you can't help but wonder at God's creation. 
                 </p>
                 <p>
                     When we're not in the ocean, my husband and I love having people over: whether it's for dinner, game nights, or bible studies, my husband 
@@ -155,10 +180,7 @@ export const About = () => {
                 </p>
             </Typography>
 
-
         </Div>
-
-
 
 
             <Typography sx={{
