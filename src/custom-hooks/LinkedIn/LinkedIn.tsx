@@ -22,7 +22,7 @@ export const LinkedIn = () => {
         data-locale="en_US"
         data-size="large"
         data-theme="light"
-        data-type="HORIZONTAL"
+        data-type="horizontal"
         data-vanity="tatianajeon"
         data-version="v1"
       >
