@@ -111,6 +111,7 @@ export const About = () => {
         }}>
             Credentials
         </Typography>
+        
         <Div sx={{
             display: 'flex',
             justifyContent: 'center', 
