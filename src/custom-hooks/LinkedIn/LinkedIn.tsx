@@ -20,9 +20,9 @@ export const LinkedIn = () => {
       <div
         className="badge-base LI-profile-badge"
         data-locale="en_US"
-        data-size="large"
+        data-size="medium"
         data-theme="light"
-        data-type="horizontal"
+        data-type="vertical"
         data-vanity="tatianajeon"
         data-version="v1"
       >

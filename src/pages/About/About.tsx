@@ -1,9 +1,10 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { borderRadius, styled } from '@mui/system';
+import { styled } from '@mui/system';
 import { NavBar } from '../../components';
-import { LinkedIn, Badges } from '../../custom-hooks';
+import { LinkedIn } from '../../custom-hooks';
+import { BadgeMenu } from '../../components/Badges';
 import { Photobook } from '../../components/Photobook';
 import profile from '../../assets/images/profilepic.png';
 import surfing from '../../assets/images/surf2.jpg';
@@ -24,13 +25,13 @@ const Div = styled('div')({
 
 export const About = () => {
   return (
-    <Root sx={{
-        backgroundColor: '#7e9384',
+      <Root sx={{
+          backgroundColor: '#7e9384',
         }}>
         <NavBar />
         <Main sx={{
-                padding: '100px',
-            }}>
+            padding: '100px',
+        }}>
             
         {/* intro section */}
             <Typography sx={{
@@ -71,6 +72,19 @@ export const About = () => {
 
                     <p>
                         My experiences and skillsets contain the following languages, frameworks, and databases: 
+                        {/* - Python 
+                        - JavaScript 
+                        - HTML/CSS
+                        - SQL, NoSQL 
+                        - API, RESTful API 
+                        - Flask/Jinja2 
+                        - React TypeScript
+                        - BootStrap 
+                        - Firebase 
+                        - Material UI 
+                        - Git, GitHub 
+                        - Heroku 
+                        - PGAdmin  */}
                     </p>
                         <li>Python</li>
                         <li>JavaScript</li>
@@ -111,25 +125,24 @@ export const About = () => {
         }}>
             Credentials
         </Typography>
-        
+
         <Div sx={{
             display: 'flex',
             justifyContent: 'center', 
-            backgroundColor: 'white',
-            borderRadius: '15px',
             
             }}>
-                <Badges />
+                <BadgeMenu />
+                {/* <Badges /> */}
         </Div>
 
     {/* LinkedIn */}
-        <Div sx={{
+        {/* <Div sx={{
             display: 'flex',
             justifyContent: 'center', 
             paddingTop: '100px',
             }}>
                 <LinkedIn />
-        </Div>
+        </Div> */}
 
 
     {/* Hobbies Section */}
@@ -162,6 +175,7 @@ export const About = () => {
 
             <Typography sx={{
                 width: '50%',
+                height: '350px',
                 padding: '50px',
                 color: 'white',
                 textAlign: 'right',

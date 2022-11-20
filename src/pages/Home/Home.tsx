@@ -2,6 +2,7 @@ import * as React from 'react';
 import { styled } from '@mui/system';
 import surf1 from '../../assets/images/surf1.jpg';
 import { NavBar, Contact } from '../../components';
+import { LinkedIn } from '../../custom-hooks'
 
 const Root = styled('div')({
     padding: 0,
@@ -36,6 +37,7 @@ export const Home = () => {
                 <NavBar />
                 {/* <Contact /> */}
             </MainText>
+            <LinkedIn />
         </Root>
 
       );
