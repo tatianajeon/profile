@@ -45,54 +45,63 @@ export const BadgeMenu = () => {
       <SwiperSlide >
         <img
           src= {software}
+          alt="coding-temple"
         />
         </SwiperSlide>
 
       <SwiperSlide>
         <img
           src= { python }
+          alt="coding-temple-python"
         />
     </SwiperSlide>
 
     <SwiperSlide>
         <img
           src= { js }
+          alt="coding-temple-js"
         />
     </SwiperSlide>
     
     <SwiperSlide>
         <img
           src= { react }
+          alt="coding-temple-react"
         />
     </SwiperSlide>
 
     <SwiperSlide>
         <img
           src= { sql }
+          alt="coding-temple-sql"
         />
     </SwiperSlide>
 
     <SwiperSlide>
         <img
           src= { flask }
+          alt="coding-temple-flask"
         />
     </SwiperSlide>
 
     <SwiperSlide>
         <img
           src= { html }
+          alt="coding-temple-html"
         />
     </SwiperSlide>
 
     <SwiperSlide>
         <img
           src= { css }
+          alt="coding-temple-css"
         />
     </SwiperSlide>
 
     <SwiperSlide>
         <img
           src= { rd }
+          alt="rd-rdn"
         />
     </SwiperSlide>
       ...
