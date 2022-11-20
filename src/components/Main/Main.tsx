@@ -5,14 +5,14 @@ import Typography from '@mui/material/Typography';
 import profilepic from '../../assets/images/profilepic.png'
 
 
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-  >
-    •
-  </Box>
-);
+// const bull = (
+//   <Box
+//     component="span"
+//     sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+//   >
+//     •
+//   </Box>
+// );
 
 const Div = styled('div')({
 })
