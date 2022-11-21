@@ -1,8 +1,6 @@
-import * as React from 'react';
 import { styled } from '@mui/system';
 import surf1 from '../../assets/images/surf1.jpg';
-import { NavBar, Contact } from '../../components';
-import { LinkedIn } from '../../custom-hooks'
+import { NavBar } from '../../components';
 
 const Root = styled('div')({
     padding: 0,
@@ -18,7 +16,6 @@ export const Home = () => {
     
     return (
         <Root>
-
             <MainText sx={{ 
                 backgroundImage: `url(${surf1})`,
                 height: '800px',
@@ -37,7 +34,6 @@ export const Home = () => {
                 <NavBar />
                 {/* <Contact /> */}
             </MainText>
-            <LinkedIn />
         </Root>
 
       );

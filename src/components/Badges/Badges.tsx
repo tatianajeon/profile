@@ -33,8 +33,8 @@ export const BadgeMenu = () => {
   return (
     <Swiper
     modules={[Navigation, Pagination, Scrollbar, A11y]}
-    spaceBetween={20}
-    slidesPerView={5}
+    spaceBetween={10}
+    slidesPerView={6}
     navigation
     pagination={{ clickable: true }}
     // scrollbar={{ draggable: true }}
